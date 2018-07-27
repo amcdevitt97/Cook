@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #cc3914;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-subtitle {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  margin-bottom:50px;
+}
+
+.recipes{
+  padding-left:100px;
+  padding-right:100px;
+}
+
+.foodItem{
+  background-color: #cc3914;
+  height:100%;
+  width:280px;
+  border-radius:10px;
+  box-shadow: 1px 1px 1px 1px #222;
+  margin-left:30px;
+  margin-right:30px;
+  margin-top:25px;
+  float:left;
+}
+
+.foodItemImage{
+  margin-top:10px;
+  width:200px;
+  height:150px;
+  object-fit: cover;
+  clip-path: inset(0px,200px,150px,0px);
+  border:2px solid black;
+}
+
+.foodItemTitle{
+  color:white;
+  font-weight:bold;
+  font-family: sans-serif;
+  margin-top:10px;
+  margin-bottom:10px;
+}
